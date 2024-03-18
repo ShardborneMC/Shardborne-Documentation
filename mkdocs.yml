@@ -1,0 +1,25 @@
+site_name: Shardborne Documentation
+theme:
+  name: material
+  logo: assets/logo.png 
+  favicon: assets/logo.png 
+  palette:  
+    primary: black
+  features:
+    - content.code.copy
+    - content.code.select
+extra:
+  generator: false
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+extra_css:
+  - stylesheets/extra.css
